@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import java.util.Set;
 
 public class TestVWOFreetrail_01_Normala_POM {
-    @Owner("Nirmala")
+    @Owner("shraddha")
     @Description("Check if free trial works.")
     @Test
     public void Start_Free_Trial() {
