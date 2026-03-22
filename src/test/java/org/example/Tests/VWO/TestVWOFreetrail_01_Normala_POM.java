@@ -22,6 +22,7 @@ public class TestVWOFreetrail_01_Normala_POM {
         String URL = "https://app.vwo.com/#/login";
         driver.get(URL);
         driver.manage().window().maximize();
+        //webdriver will get the parent window id and store it in a string variable
 
 
         String parent_id = driver.getWindowHandle();
